@@ -25,7 +25,7 @@ nav a {
   padding: 5px;
 }
  body{
-    background-color: rgb(158, 252, 252);
+    background-color: rgb(200, 241, 241);
     font-family: system-ui;
     color:rgb(201, 0, 151);
     border: 1px solid rgb(233, 19, 233);
@@ -122,4 +122,26 @@ a {
     gap:70px;
     font-size: 40px;
   }
+}
+
+ input,
+ textarea {
+width: 100%;
+padding: 5px;
+outline: none;
+}
+label {
+  line-height: 1.9rem;
+}
+
+input[type="submit"] {
+ transform: translate(2.2%);
+ padding: 3px;
+ margin-top: 0.6rem;
+ font-family: cursive;
+ font-weight: bold;
+}
+
+fieldset {
+ padding: 20px 40px;
 }
